@@ -2,8 +2,6 @@
 
 *More Than RGB—Because Wounds Have Layers.*
 
----
-
 This project implements a **deep learning-based semantic segmentation model** for automatic detection of diabetic foot ulcers from clinical foot images. A custom **U-Net** architecture is trained to generate **pixel-level segmentation masks**, accurately outlining ulcer regions instead of simply classifying whether an ulcer is present.
 
 To improve robustness under varying lighting conditions and skin tones, the model uses a **4-channel input** consisting of the **LAB color space** and the **Erythema Redness Index (ERI)**, which enhances redness associated with inflamed tissue. 
